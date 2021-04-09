@@ -2,6 +2,48 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://y-jinhao.github.io/about/index.html</loc>
+    
+    <lastmod>2021-04-09</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://y-jinhao.github.io/2021/04/09/revolutionary/</loc>
+    
+    <lastmod>2021-04-09</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://y-jinhao.github.io/wenwater/index.html</loc>
+    
+    <lastmod>2021-04-09</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://y-jinhao.github.io/2021/04/05/Spiritfarer/</loc>
+    
+    <lastmod>2021-04-09</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://y-jinhao.github.io/2021/04/06/webpack-bundle-analyzer/</loc>
+    
+    <lastmod>2021-04-09</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://y-jinhao.github.io/gallery/revolutionary/index.html</loc>
+    
+    <lastmod>2021-04-09</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://y-jinhao.github.io/gallery/star/index.html</loc>
     
     <lastmod>2021-04-09</lastmod>
@@ -10,13 +52,6 @@
   
   <url>
     <loc>https://y-jinhao.github.io/gallery/snow/index.html</loc>
-    
-    <lastmod>2021-04-09</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://y-jinhao.github.io/gallery/revolutionary/index.html</loc>
     
     <lastmod>2021-04-09</lastmod>
     
@@ -51,13 +86,6 @@
   </url>
   
   <url>
-    <loc>https://y-jinhao.github.io/wenwater/index.html</loc>
-    
-    <lastmod>2021-04-09</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://y-jinhao.github.io/messageboard/index.html</loc>
     
     <lastmod>2021-04-08</lastmod>
@@ -86,13 +114,6 @@
   </url>
   
   <url>
-    <loc>https://y-jinhao.github.io/2021/04/06/webpack-bundle-analyzer/</loc>
-    
-    <lastmod>2021-04-07</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://y-jinhao.github.io/link/index.html</loc>
     
     <lastmod>2021-04-07</lastmod>
@@ -107,21 +128,7 @@
   </url>
   
   <url>
-    <loc>https://y-jinhao.github.io/2021/04/05/Spiritfarer/</loc>
-    
-    <lastmod>2021-04-06</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://y-jinhao.github.io/2021/04/06/JS-Obeject/</loc>
-    
-    <lastmod>2021-04-06</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://y-jinhao.github.io/about/index.html</loc>
     
     <lastmod>2021-04-06</lastmod>
     
@@ -158,6 +165,27 @@
   </url>
   
   <url>
+    <loc>https://y-jinhao.github.io/tags/Recreation/</loc>
+    <lastmod>2021-04-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://y-jinhao.github.io/tags/English/</loc>
+    <lastmod>2021-04-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://y-jinhao.github.io/tags/gallery/</loc>
+    <lastmod>2021-04-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://y-jinhao.github.io/tags/Vue/</loc>
     <lastmod>2021-04-09</lastmod>
     <changefreq>daily</changefreq>
@@ -185,20 +213,6 @@
     <priority>0.6</priority>
   </url>
   
-  <url>
-    <loc>https://y-jinhao.github.io/tags/Recreation/</loc>
-    <lastmod>2021-04-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://y-jinhao.github.io/tags/English/</loc>
-    <lastmod>2021-04-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
 
   
   <url>
@@ -209,7 +223,7 @@
   </url>
   
   <url>
-    <loc>https://y-jinhao.github.io/categories/%E5%89%8D%E7%AB%AF/JavaScript/</loc>
+    <loc>https://y-jinhao.github.io/categories/Recreation/</loc>
     <lastmod>2021-04-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -223,7 +237,7 @@
   </url>
   
   <url>
-    <loc>https://y-jinhao.github.io/categories/Recreation/</loc>
+    <loc>https://y-jinhao.github.io/categories/%E5%89%8D%E7%AB%AF/JavaScript/</loc>
     <lastmod>2021-04-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
