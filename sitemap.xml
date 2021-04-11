@@ -2,6 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://y-jinhao.github.io/dust/e76c9c8d.html</loc>
+    
+    <lastmod>2021-04-11</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://y-jinhao.github.io/dust/56a90810.html</loc>
+    
+    <lastmod>2021-04-11</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://y-jinhao.github.io/dust/9f81e208.html</loc>
+    
+    <lastmod>2021-04-11</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://y-jinhao.github.io/dust/782783dc.html</loc>
+    
+    <lastmod>2021-04-11</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://y-jinhao.github.io/music/index.html</loc>
     
     <lastmod>2021-04-11</lastmod>
@@ -10,20 +38,6 @@
   
   <url>
     <loc>https://y-jinhao.github.io/movies/index.html</loc>
-    
-    <lastmod>2021-04-11</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://y-jinhao.github.io/2021/04/10/Branch/</loc>
-    
-    <lastmod>2021-04-11</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://y-jinhao.github.io/2021/04/09/revolutionary/</loc>
     
     <lastmod>2021-04-11</lastmod>
     
@@ -137,6 +151,55 @@
 
   
   <url>
+    <loc>https://y-jinhao.github.io/tags/HTML/</loc>
+    <lastmod>2021-04-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://y-jinhao.github.io/tags/JavaScript/</loc>
+    <lastmod>2021-04-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://y-jinhao.github.io/tags/Blog/</loc>
+    <lastmod>2021-04-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://y-jinhao.github.io/tags/Vue/</loc>
+    <lastmod>2021-04-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://y-jinhao.github.io/tags/Webpack-bundle-analyzer/</loc>
+    <lastmod>2021-04-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://y-jinhao.github.io/tags/Webpack/</loc>
+    <lastmod>2021-04-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://y-jinhao.github.io/tags/View-UI/</loc>
+    <lastmod>2021-04-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://y-jinhao.github.io/tags/gallery/</loc>
     <lastmod>2021-04-11</lastmod>
     <changefreq>daily</changefreq>
@@ -144,5 +207,26 @@
   </url>
   
 
+  
+  <url>
+    <loc>https://y-jinhao.github.io/categories/%E5%89%8D%E7%AB%AF/</loc>
+    <lastmod>2021-04-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://y-jinhao.github.io/categories/%E5%89%8D%E7%AB%AF/JavaScript/</loc>
+    <lastmod>2021-04-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://y-jinhao.github.io/categories/%E5%89%8D%E7%AB%AF/Vue/</loc>
+    <lastmod>2021-04-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
   
 </urlset>
