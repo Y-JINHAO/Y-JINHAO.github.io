@@ -2,13 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://y-jinhao.github.io/dust/e76c9c8d.html</loc>
-    
-    <lastmod>2021-04-11</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://y-jinhao.github.io/dust/56a90810.html</loc>
     
     <lastmod>2021-04-11</lastmod>
@@ -17,6 +10,13 @@
   
   <url>
     <loc>https://y-jinhao.github.io/dust/9f81e208.html</loc>
+    
+    <lastmod>2021-04-11</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://y-jinhao.github.io/dust/e76c9c8d.html</loc>
     
     <lastmod>2021-04-11</lastmod>
     
@@ -199,14 +199,14 @@
     <priority>0.6</priority>
   </url>
   
+
+  
   <url>
-    <loc>https://y-jinhao.github.io/tags/gallery/</loc>
+    <loc>https://y-jinhao.github.io/categories/gallery/</loc>
     <lastmod>2021-04-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
-  
-
   
   <url>
     <loc>https://y-jinhao.github.io/categories/%E5%89%8D%E7%AB%AF/</loc>
