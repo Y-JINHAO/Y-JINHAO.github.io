@@ -1,0 +1,341 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// 清除每一个 li 前的小圆点，可以放在CSS初始化中
+li {
+  list-style: none;
+}
+
+/* 声明字体*/
+@font-face {
+  font-family: electronicFont;
+  // font 文件夹下
+  src: url(../font/DS-DIGIT.TTF);
+}
+
+body {
+  // top center垂直居中靠上
+  background: url(https://cdn.jsdelivr.net/gh/Y-JINHAO/resources/img/echarts-bg.jpg) no-repeat top center;
+  line-height: 1.15;
+}
+
+// 头部样式
+header {
+  position: relative;
+  height: 1rem;
+  background: url(https://cdn.jsdelivr.net/gh/Y-JINHAO/resources/img/echarts-head_bg.png) no-repeat;
+  // 缩放比例为 100%
+  background-size: 100% 100%;
+
+  h2 {
+    font-size: 0.35rem;
+    color: #fff;
+    text-align: center;
+    line-height: 0.75rem;
+  }
+
+  .showTime {
+    // 子元素绝对定位，父元素一定设置相对定位
+    position: absolute;
+    right: 0.5rem;
+    top: 0;
+    line-height: 0.625rem;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.2rem;
+  }
+}
+
+// 页面主体盒子样式
+.mainBox {
+  // 设定最小宽度，屏幕缩小到这里就不能再缩小了
+  min-width: 1024px;
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 0.125rem 0.125rem 0;
+  display: flex;
+
+  .column {
+    // 每个column占页面三份，父元素设定display:flex
+    flex: 3;
+  }
+
+  // 第二个column占页面 5份
+  .column:nth-child(2) {
+    flex: 5;
+    // 给中间盒子加外边距 上为0 左右10px 底部15px
+    margin: 0 0.125rem 0.1875rem;
+    // 中间部分底部会出现滚动条 底下留白 因为选择的图片有时候会超出 所有设定超出部分隐藏
+    overflow: hidden;
+  }
+
+  /* &:nth-child(2) {
+    flex: 5;
+  } */
+}
+
+.panel {
+  position: relative;
+  height: 3.875rem;
+  border: 1px solid rgba(25, 186, 139, 0.17);
+  // 用到了转义字符
+  background: url(https://cdn.jsdelivr.net/gh/Y-JINHAO/resources/img/echarts-line\(1\).png) rgba(25, 186, 139, 0.03);
+  padding: 0 0.1875rem 0.5rem;
+  margin-bottom: 0.1875rem;
+
+  // 有before、after 伪元素来设置盒子上面两边的角
+  &::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid #02a6b5;
+    border-left: 2px solid #02a6b5;
+  }
+
+  &::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    content: '';
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid #02a6b5;
+    border-right: 2px solid #02a6b5;
+  }
+
+  // 底部设置一个盒子再用before、after 两个伪元素设置panel盒子底部两边的角
+  .panel-footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
+    &::before {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      content: '';
+      width: 10px;
+      height: 10px;
+      border-bottom: 2px solid #02a6b5;
+      border-left: 2px solid #02a6b5;
+    }
+
+    &::after {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      content: '';
+      width: 10px;
+      height: 10px;
+      border-bottom: 2px solid #02a6b5;
+      border-right: 2px solid #02a6b5;
+    }
+  }
+
+  h2 {
+    height: 0.6rem;
+    line-height: 0.6rem;
+    color: rgb(253, 251, 251);
+    text-align: center;
+    font-size: 0.225rem;
+    font-weight: normal;
+
+    a {
+      color: rgb(162, 163, 163);
+      text-decoration: none;
+      margin: 0 0.125rem;
+      font-size: 0.2rem;
+    }
+
+    /*     a:nth-child(1){
+      padding-left: 0.25rem;
+    } */
+  }
+
+  // 放图表的地方
+  .chart {
+    height: 3rem;
+  }
+}
+
+// no 数字模块
+.no {
+  background: rgba(101, 132, 226, 0.1);
+  padding: 0.1875rem;
+
+  .no-hd {
+    position: relative;
+    border: 1px solid rgba(25, 186, 139, 0.17);
+
+    // 用before、after 伪元素设置左上、右下的角
+    &::before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      content: '';
+      // 固定宽、高，不用适配
+      width: 30px;
+      height: 10px;
+      border-top: 2px solid #02a6b5;
+      border-left: 2px solid #02a6b5;
+    }
+
+    &::after {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      content: '';
+      width: 30px;
+      height: 10px;
+      border-bottom: 2px solid #02a6b5;
+      border-right: 2px solid #02a6b5;
+    }
+
+    ul {
+      display: flex;
+
+      // 两个 li，每个占一份
+      li {
+        flex: 1;
+        line-height: 0.75rem;
+        font-size: 0.5rem;
+        color: #ffeb7b;
+        text-align: center;
+        // 设置图标字体，需要先声明（见开头CSS初始化内容）
+        font-family: electronicFont;
+      }
+
+      // 弄一个小竖线
+      li:nth-child(1)::after {
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        content: '';
+        height: 50%;
+        width: 2px;
+        background: rgba(255, 255, 255, 0.2);
+      }
+    }
+  }
+
+  .no-bd {
+    ul {
+      display: flex;
+
+      li {
+        flex: 1;
+        height: 0.5rem;
+        line-height: 0.5rem;
+        color: rgba(255, 255, 255, 0.7);
+        font-size: 0.25rem;
+        padding-top: 0.125rem;
+        text-align: center;
+        font-family: electronicFont;
+      }
+    }
+  }
+}
+
+// 地图模块
+.map {
+  position: relative;
+  height: 10.125rem;
+  margin-top: 0.2rem;
+
+  .map1 {
+    width: 6.475rem;
+    height: 6.475rem;
+    position: absolute;
+    // 为保证垂直居中，设定下面三个属性
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: url(https://cdn.jsdelivr.net/gh/Y-JINHAO/resources/img/echarts-map.png) no-repeat top center;
+    // 图片随着窗口等比例缩放
+    background-size: 100% 100%;
+    opacity: 0.3;
+  }
+
+  .map2 {
+    width: 8.0375rem;
+    height: 8.0375rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: url(https://cdn.jsdelivr.net/gh/Y-JINHAO/resources/img/echarts-lbx.png);
+    background-size: 100% 100%;
+    opacity: 0.6;
+    // 调用 rotate1动画 用时 10秒 匀速linear 无限循环infinite
+    animation: rotate1 10s linear infinite;
+  }
+
+  .map3 {
+    width: 7.075rem;
+    height: 7.075rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: url(https://cdn.jsdelivr.net/gh/Y-JINHAO/resources/img/echarts-jt.png);
+    background-size: 100% 100%;
+    animation: rotate2 15s linear infinite;
+  }
+
+  .chart {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    // 高度与父元素 map一致
+    height: 10.125rem;
+  }
+
+  // 旋转动画
+  @keyframes rotate1 {
+
+    // 从 0度旋转到 360度, 旋转时要保留圆形的位置，设置transform
+    from {
+      transform: translate(-50%, -50%) rotate(0deg);
+    }
+
+    to {
+      transform: translate(-50%, -50%) rotate(360deg);
+    }
+  }
+
+  @keyframes rotate2 {
+
+    // 从 0度旋转到 -360度, 就负时针旋转了
+    from {
+      transform: translate(-50%, -50%) rotate(0deg);
+    }
+
+    to {
+      transform: translate(-50%, -50%) rotate(-360deg);
+    }
+  }
+}
+
+/* 约束屏幕尺寸  不能一直缩小，因为小到看不清内容也没有意义*/
+@media screen and (max-width: 1024px) {
+
+  // 如果屏幕的比 1024px还小，就把每个 rem设定为 1024 / 24 = 42px
+  html {
+    font-size: 42px !important;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+
+  // 如果屏幕的比 1920px还小，就把每个 rem设定为 1920 / 24 = 80px
+  html {
+    font-size: 80px !important;
+  }
+}
