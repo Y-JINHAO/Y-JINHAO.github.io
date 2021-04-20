@@ -6,7 +6,7 @@
   <link href="https://y-jinhao.github.io/atom.xml" rel="self"/>
   
   <link href="https://y-jinhao.github.io/"/>
-  <updated>2021-04-20T10:05:44.816Z</updated>
+  <updated>2021-04-20T13:13:46.623Z</updated>
   <id>https://y-jinhao.github.io/</id>
   
   <author>
@@ -17,21 +17,41 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hexo-pdf插件使用以及SpringBoot+Vue前后端分离小项目</title>
+    <title>不知道什么时候记录的 JavaScript 子在川上曰：逝者如斯夫</title>
+    <link href="https://y-jinhao.github.io/dust/32f4207.html"/>
+    <id>https://y-jinhao.github.io/dust/32f4207.html</id>
+    <published>2021-04-20T11:58:11.000Z</published>
+    <updated>2021-04-20T13:13:46.623Z</updated>
+    
+    <content type="html"><![CDATA[<p>OneNote 转移过来的笔记，就只是以图片的形式简单的在这保存下。</p><h3 id="一-基础、语法"><a href="#一-基础、语法" class="headerlink" title="一 基础、语法"></a>一 基础、语法</h3><p><img src="https://cdn.jsdelivr.net/gh/Y-JINHAO/resources/img/jsnote1-1.png"><br><img src="https://cdn.jsdelivr.net/gh/Y-JINHAO/resources/img/jsnote1-2.png"><br><img src="https://cdn.jsdelivr.net/gh/Y-JINHAO/resources/img/jsnote1-3.png"><br><img src="https://cdn.jsdelivr.net/gh/Y-JINHAO/resources/img/jsnote1-4.png"><br><img src="https://cdn.jsdelivr.net/gh/Y-JINHAO/resources/img/jsnote1-5.png"><br><img src="https://cdn.jsdelivr.net/gh/Y-JINHAO/resources/img/jsnote1-6.png"><br><img src="https://cdn.jsdelivr.net/gh/Y-JINHAO/resources/img/jsnote1-7.png"><br><img src="https://cdn.jsdelivr.net/gh/Y-JINHAO/resources/img/jsnote1-8.png"><br><img src="https://cdn.jsdelivr.net/gh/Y-JINHAO/resources/img/jsnote1-9.png"><br><img src="https://cdn.jsdelivr.net/gh/Y-JINHAO/resources/img/jsnote1-10.png"><br><img src="https://cdn.jsdelivr.net/gh/Y-JINHAO/resources/img/jsnote1-11.png"><br><img src="https://cdn.jsdelivr.net/gh/Y-JINHAO/resources/img/jsnote1-12.png"><br><img src="https://cdn.jsdelivr.net/gh/Y-JINHAO/resources/img/jsnote1-13.png"></p><h3 id="二-函数、对象、数组"><a href="#二-函数、对象、数组" class="headerlink" title="二 函数、对象、数组"></a>二 函数、对象、数组</h3><p><img src="https://cdn.jsdelivr.net/gh/Y-JINHAO/resources/img/jsnote2-1.png"><br><img src="https://cdn.jsdelivr.net/gh/Y-JINHAO/resources/img/jsnote2-2.png"><br><img src="https://cdn.jsdelivr.net/gh/Y-JINHAO/resources/img/jsnote2-3.png"><br><img src="https://cdn.jsdelivr.net/gh/Y-JINHAO/resources/img/jsnote2-4.png"><br><img src="https://cdn.jsdelivr.net/gh/Y-JINHAO/resources/img/jsnote2-5.png"><br><img src="https://cdn.jsdelivr.net/gh/Y-JINHAO/resources/img/jsnote2-6.png"><br><img src="https://cdn.jsdelivr.net/gh/Y-JINHAO/resources/img/jsnote2-7.png"><br><img src="https://cdn.jsdelivr.net/gh/Y-JINHAO/resources/img/jsnote2-8.png"><br><img src="https://cdn.jsdelivr.net/gh/Y-JINHAO/resources/img/jsnote2-9.png"><br><img src="https://cdn.jsdelivr.net/gh/Y-JINHAO/resources/img/jsnote2-10.png"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;OneNote 转移过来的笔记，就只是以图片的形式简单的在这保存下。&lt;/p&gt;
+&lt;h3 id=&quot;一-基础、语法&quot;&gt;&lt;a href=&quot;#一-基础、语法&quot; class=&quot;headerlink&quot; title=&quot;一 基础、语法&quot;&gt;&lt;/a&gt;一 基础、语法&lt;/h3&gt;&lt;p&gt;&lt;img src</summary>
+      
+    
+    
+    
+    
+    <category term="JavaScript" scheme="https://y-jinhao.github.io/tags/JavaScript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo-pdf 插件使用以及 SpringBoot + Vue 前后端分离开发入门</title>
     <link href="https://y-jinhao.github.io/dust/6a25b083.html"/>
     <id>https://y-jinhao.github.io/dust/6a25b083.html</id>
     <published>2021-04-20T09:35:08.000Z</published>
-    <updated>2021-04-20T10:05:44.816Z</updated>
+    <updated>2021-04-20T10:35:27.312Z</updated>
     
-    <content type="html"><![CDATA[<div class="note blue no-icon flat"><p>怎么在 Hexo 博客中展示 pdf</p></div><h3 id="安装-Hexo-pdf-插件"><a href="#安装-Hexo-pdf-插件" class="headerlink" title="安装 Hexo-pdf 插件"></a>安装 Hexo-pdf 插件</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install --save hexo-pdf</span><br></pre></td></tr></table></figure><h3 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h3><p>安装插件成功后，在 .md 文件中通过下面的语法引用。</p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% pdf 某个pdf文件本地路径或链接 %&#125;</span><br></pre></td></tr></table></figure><h3 id="部署到服务器再使用"><a href="#部署到服务器再使用" class="headerlink" title="部署到服务器再使用"></a>部署到服务器再使用</h3><p>在博客项目根目录的 source 下新建一个 file 文件夹，并把想要在文章中引用的 pdf 文件存放在其中，比如下图中的 SpringBoot.pdf：</p><div class="justified-gallery"><p><img src="https://cdn.jsdelivr.net/gh/Y-JINHAO/resources/img/file-pdf.png"></p>          </div><p>在运行 hexo clean &amp;&amp; hexo g 后可以看到生成的路径</p><div class="justified-gallery"><p><img src="https://cdn.jsdelivr.net/gh/Y-JINHAO/resources/img/springbootpdf.png"></p>          </div><p>通过 hexo d 把博客部署到远端服务器，然后在想要展示上面SpringBoot.pdf的地方写入下面的代码：</p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% pdf https://y-jinhao.github.io/file/SpringBoot.pdf %&#125;</span><br></pre></td></tr></table></figure><p>可以看到，<a href="https://y-jinhao.github.io/">https://y-jinhao.github.io/</a> 是本博客网址。</p><div class="note default simple"><p>下面展示的就是 SpringBoot.pdf</p></div><div class="row">    <embed src="https://y-jinhao.github.io/file/SpringBoot.pdf" width="100%" height="550" type="application/pdf"></div>]]></content>
+    <content type="html"><![CDATA[<div class="note blue no-icon flat"><h2 id="一-怎么在-Hexo-博客中展示-pdf？"><a href="#一-怎么在-Hexo-博客中展示-pdf？" class="headerlink" title="一 怎么在 Hexo 博客中展示 pdf？"></a>一 怎么在 Hexo 博客中展示 pdf？</h2></div><h3 id="安装-Hexo-pdf-插件"><a href="#安装-Hexo-pdf-插件" class="headerlink" title="安装 Hexo-pdf 插件"></a>安装 Hexo-pdf 插件</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install --save hexo-pdf</span><br></pre></td></tr></table></figure><h3 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h3><p>安装插件成功后，在 .md 文件中通过下面的语法引用。</p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% pdf 某个pdf文件本地路径或链接 %&#125;</span><br></pre></td></tr></table></figure><p>效果</p><div class="justified-gallery"><p><img src="https://cdn.jsdelivr.net/gh/Y-JINHAO/resources/img/springboot+vue.pdf.png"></p>          </div><h3 id="部署到服务器再使用"><a href="#部署到服务器再使用" class="headerlink" title="部署到服务器再使用"></a>部署到服务器再使用</h3><p>在博客项目根目录的 source 下新建一个 file 文件夹，并把想要在文章中引用的 pdf 文件存放在其中，比如下图中的 SpringBoot.pdf：</p><div class="justified-gallery"><p><img src="https://cdn.jsdelivr.net/gh/Y-JINHAO/resources/img/file-pdf.png"></p>          </div><p>在运行 hexo clean &amp;&amp; hexo g 后可以看到生成的路径</p><div class="justified-gallery"><p><img src="https://cdn.jsdelivr.net/gh/Y-JINHAO/resources/img/springbootpdf.png"></p>          </div><p>通过 hexo d 把博客部署到远端服务器，然后在想要展示上面 SpringBoot.pdf 的地方写入下面的代码：</p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% pdf https://Y-JINHAO.github.io/file/SpringBoot.pdf %&#125;</span><br></pre></td></tr></table></figure><p>可以看到，<a href="https://y-jinhao.github.io/">https://Y-JINHAO.github.io/</a> 是本博客网址。</p><div class="note warning modern"><p>总结：上面的方法亲测有效，但是 Github 的服务器毕竟在国外，所以有时可能会因为加载时间过长而失败。</p></div><div class="note blue no-icon flat"><h2 id="二-SpringBoot-Vue-前后端分离开发入门"><a href="#二-SpringBoot-Vue-前后端分离开发入门" class="headerlink" title="二 SpringBoot + Vue 前后端分离开发入门"></a>二 SpringBoot + Vue 前后端分离开发入门</h2></div><div class="row">    <embed src="https://Y-JINHAO.github.io/file/SpringBoot.pdf" width="100%" height="550" type="application/pdf"></div><div class="note default simple"><p>上面展示的就是 SpringBoot.pdf，即 SpringBoot + Vue 前后端分离开发入门笔记，嗯~~，挂在 github 上加载是很慢的…</p></div>]]></content>
     
     
       
       
-    <summary type="html">&lt;div class=&quot;note blue no-icon flat&quot;&gt;&lt;p&gt;怎么在 Hexo 博客中展示 pdf&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;h3 id=&quot;安装-Hexo-pdf-插件&quot;&gt;&lt;a href=&quot;#安装-Hexo-pdf-插件&quot; class=&quot;headerlink&quot; t</summary>
+    <summary type="html">&lt;div class=&quot;note blue no-icon flat&quot;&gt;&lt;h2 id=&quot;一-怎么在-Hexo-博客中展示-pdf？&quot;&gt;&lt;a href=&quot;#一-怎么在-Hexo-博客中展示-pdf？&quot; class=&quot;headerlink&quot; title=&quot;一 怎么在 Hexo 博客中</summary>
       
     
     

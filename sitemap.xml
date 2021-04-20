@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://y-jinhao.github.io/dust/32f4207.html</loc>
+    
+    <lastmod>2021-04-20</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://y-jinhao.github.io/dust/6a25b083.html</loc>
     
     <lastmod>2021-04-20</lastmod>
@@ -186,20 +193,6 @@
   </url>
   
   <url>
-    <loc>https://y-jinhao.github.io/tags/Webpack/</loc>
-    <lastmod>2021-04-20</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://y-jinhao.github.io/tags/View-UI/</loc>
-    <lastmod>2021-04-20</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://y-jinhao.github.io/tags/Java/</loc>
     <lastmod>2021-04-20</lastmod>
     <changefreq>daily</changefreq>
@@ -208,6 +201,20 @@
   
   <url>
     <loc>https://y-jinhao.github.io/tags/Springboot/</loc>
+    <lastmod>2021-04-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://y-jinhao.github.io/tags/Webpack/</loc>
+    <lastmod>2021-04-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://y-jinhao.github.io/tags/View-UI/</loc>
     <lastmod>2021-04-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -244,14 +251,14 @@
 
   
   <url>
-    <loc>https://y-jinhao.github.io/categories/%E5%89%8D%E7%AB%AF/</loc>
+    <loc>https://y-jinhao.github.io/categories/gallery/</loc>
     <lastmod>2021-04-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://y-jinhao.github.io/categories/gallery/</loc>
+    <loc>https://y-jinhao.github.io/categories/%E5%89%8D%E7%AB%AF/</loc>
     <lastmod>2021-04-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
