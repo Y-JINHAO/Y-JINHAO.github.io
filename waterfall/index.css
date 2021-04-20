@@ -1,18 +1,1 @@
-.wrap {
-    position: relative;
-    width: 1200px;
-    margin: 0 auto;
-}
-
-.wf-item {
-    position: absolute;
-    background-color: #ededed;
-    overflow: hidden;
-}
-
-.wf-item img {
-    /* 图片高度可能比父元素 div 盒子的高度小 */
-    /* 只要遇到图片与盒子高度不一致时，就将 img 设为块级元素，img 原本是文本元素 */
-    display: block;
-    width: 100%;
-}
+.wrap{position:relative;width:1200px;margin:0 auto}.wf-item{position:absolute;background-color:#ededed;overflow:hidden}.wf-item img{display:block;width:100%}
