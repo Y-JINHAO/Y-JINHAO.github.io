@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://y-jinhao.github.io/alongwords/index.html</loc>
+    
+    <lastmod>2021-05-05</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://y-jinhao.github.io/gallery/index.html</loc>
     
     <lastmod>2021-05-04</lastmod>
@@ -10,13 +17,6 @@
   
   <url>
     <loc>https://y-jinhao.github.io/link/index.html</loc>
-    
-    <lastmod>2021-05-04</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://y-jinhao.github.io/messageboard/index.html</loc>
     
     <lastmod>2021-05-04</lastmod>
     
@@ -93,13 +93,6 @@
   </url>
   
   <url>
-    <loc>https://y-jinhao.github.io/alongwords/index.html</loc>
-    
-    <lastmod>2021-04-17</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://y-jinhao.github.io/dust/782783dc.html</loc>
     
     <lastmod>2021-04-12</lastmod>
@@ -165,92 +158,92 @@
 
   <url>
     <loc>https://y-jinhao.github.io/</loc>
-    <lastmod>2021-05-04</lastmod>
+    <lastmod>2021-05-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
-    <loc>https://y-jinhao.github.io/tags/JavaScript/</loc>
-    <lastmod>2021-05-04</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://y-jinhao.github.io/tags/Vue/</loc>
-    <lastmod>2021-05-04</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://y-jinhao.github.io/tags/Java/</loc>
-    <lastmod>2021-05-04</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://y-jinhao.github.io/tags/Springboot/</loc>
-    <lastmod>2021-05-04</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://y-jinhao.github.io/tags/HTML/</loc>
-    <lastmod>2021-05-04</lastmod>
+    <lastmod>2021-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://y-jinhao.github.io/tags/JavaScript/</loc>
+    <lastmod>2021-05-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://y-jinhao.github.io/tags/Blog/</loc>
-    <lastmod>2021-05-04</lastmod>
+    <lastmod>2021-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://y-jinhao.github.io/tags/Vue/</loc>
+    <lastmod>2021-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://y-jinhao.github.io/tags/Java/</loc>
+    <lastmod>2021-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://y-jinhao.github.io/tags/Springboot/</loc>
+    <lastmod>2021-05-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://y-jinhao.github.io/tags/Webpack/</loc>
-    <lastmod>2021-05-04</lastmod>
+    <lastmod>2021-05-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://y-jinhao.github.io/tags/View-UI/</loc>
-    <lastmod>2021-05-04</lastmod>
+    <lastmod>2021-05-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://y-jinhao.github.io/tags/CSS/</loc>
-    <lastmod>2021-05-04</lastmod>
+    <lastmod>2021-05-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://y-jinhao.github.io/tags/Echarts/</loc>
-    <lastmod>2021-05-04</lastmod>
+    <lastmod>2021-05-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://y-jinhao.github.io/tags/Flexible/</loc>
-    <lastmod>2021-05-04</lastmod>
+    <lastmod>2021-05-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://y-jinhao.github.io/tags/Jquery/</loc>
-    <lastmod>2021-05-04</lastmod>
+    <lastmod>2021-05-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -259,21 +252,21 @@
   
   <url>
     <loc>https://y-jinhao.github.io/categories/%E7%9B%B8%E5%86%8C/</loc>
-    <lastmod>2021-05-04</lastmod>
+    <lastmod>2021-05-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://y-jinhao.github.io/categories/%E5%89%8D%E7%AB%AF/</loc>
-    <lastmod>2021-05-04</lastmod>
+    <lastmod>2021-05-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://y-jinhao.github.io/categories/%E5%8D%9A%E5%AE%A2/</loc>
-    <lastmod>2021-05-04</lastmod>
+    <lastmod>2021-05-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
