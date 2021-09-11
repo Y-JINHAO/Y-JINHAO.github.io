@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://y-jinhao.github.io/dust/ee7dc23.html</loc>
+    
+    <lastmod>2021-09-11</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://y-jinhao.github.io/dust/aab5dfe2.html</loc>
     
     <lastmod>2021-06-12</lastmod>
@@ -187,6 +194,13 @@
   
   <url>
     <loc>https://y-jinhao.github.io/tags/Blog/</loc>
+    <lastmod>2021-09-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://y-jinhao.github.io/tags/Notion/</loc>
     <lastmod>2021-09-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>

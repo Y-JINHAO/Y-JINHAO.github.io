@@ -6,7 +6,7 @@
   <link href="https://y-jinhao.github.io/atom.xml" rel="self"/>
   
   <link href="https://y-jinhao.github.io/"/>
-  <updated>2021-06-12T12:20:47.995Z</updated>
+  <updated>2021-09-11T06:18:17.535Z</updated>
   <id>https://y-jinhao.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Noiton 使用数据库的方式管理笔记的效果与简单使用教程</title>
+    <link href="https://y-jinhao.github.io/dust/ee7dc23.html"/>
+    <id>https://y-jinhao.github.io/dust/ee7dc23.html</id>
+    <published>2021-09-11T06:04:16.000Z</published>
+    <updated>2021-09-11T06:18:17.535Z</updated>
+    
+    <content type="html"><![CDATA[<p>首先展示一下本文在 Notion 中的效果：</p><p><img src="https://cdn.jsdelivr.net/gh/Y-JINHAO/resources/img/Notion.png"></p><h3 id="一-基本内容类型及定义"><a href="#一-基本内容类型及定义" class="headerlink" title="一 基本内容类型及定义"></a>一 基本内容类型及定义</h3><p>使用 / 查看并生成各种类型的块</p><ul><li><input disabled="" type="checkbox"> To-do</li><li>嘿嘿，无序列表快捷键是 ‘ - ‘ + 空格，把 ‘ - ‘ 换成数字后面带.会生成有序列表</li></ul><ol><li>有序列表</li></ol><ul><li><p>Toggle List 生成套索列表，可以将每列内容展开和隐藏，快捷键是 ‘ &gt; ‘ + 空格</p><p>  可展开或隐藏得内容</p></li></ul><blockquote><p>Quote 添加更大的文本，适合用于引用</p></blockquote><hr><p>连输3个 ‘ - ‘ 可以生成一个分隔文本的灰色水平线</p><p>Link  to page类型用来添加另一个页面，这样可以实现跳转，如下</p><p><a href="https://www.notion.so/808c01081f8b41d1ba14df7d0c132c61">个人主页</a></p><p>Callout是“提示”、“警告”或“免责声明”的理想选择，前面的表情点击可替换</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">el-card</span> <span class="attr">style</span>=<span class="string">&quot;padding-bottom:-20px;margin-bottom:10px&quot;</span>  <span class="attr">shadow</span>=<span class="string">&quot;always&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">el-breadcrumb</span> <span class="attr">class</span>=<span class="string">&quot;info-title&quot;</span> <span class="attr">separator-class</span>=<span class="string">&quot;el-icon-arrow-right&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">el-breadcrumb-item</span>&gt;</span><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">a</span>&gt;</span>数据管理<span class="tag">&lt;/<span class="name">el-breadcrumb-item</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">el-breadcrumb-item</span> <span class="attr">:to</span>=<span class="string">&quot;&#123; path: &#x27;/AreaFlow&#x27; &#125;&quot;</span>&gt;</span>车流统计<span class="tag">&lt;/<span class="name">el-breadcrumb-item</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">el-breadcrumb-item</span>&gt;</span><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;/&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">a</span>&gt;</span><span class="tag">&lt;/<span class="name">el-breadcrumb-item</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">el-breadcrumb</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">el-card</span>&gt;</span></span><br></pre></td></tr></table></figure><h3 id="二-Database"><a href="#二-Database" class="headerlink" title="二 Database"></a>二 Database</h3><p>表格、板块、图库、列表和日历，以图库为例，其它类似</p><p><a href="https://www.notion.so/2a78c4a61ea540cbbb5f69fc50e0899f"> Tracker</a></p><p><a href="https://www.notion.so/3d00dd42b0b640768c1c708855c66182">图库 - / + Gallery - inline 这个功能特别好</a></p><p>可以快捷拖动本地多个图片添加进来，还会自动识别图片中的文字或图片名作标题</p><h3 id="三-媒体文件"><a href="#三-媒体文件" class="headerlink" title="三 媒体文件"></a>三 媒体文件</h3><p>在 Notion 中，任何页面都可以附上媒体文件</p><p>/image 可以添加图片，可以选择上传、附链接或 Unplash 里的图片</p><p>/video 添加视频</p><p>/audio 添加音频，音视频文件可以拖放</p><p>选择 webmarks 添加单击链接到网页及预览中</p><p><a href="https://unsplash.com/photos/t6zKkDEQsUg">Photo by insung yoon on Unsplash</a></p><p>任何文件都可以上传到页面里，并精确地存储在想放的工作区中，这样就不用去找了。</p><p><a href="Notion%20f97f003929344a779da380945810cfb3/Notion_%E4%BD%BF%E7%94%A8%E8%AF%A6%E8%A7%A3%EF%BC%9A%E6%9D%A5%E8%87%AA%E6%9C%AA%E6%9D%A5%E7%9A%84%E7%AC%94%E8%AE%B0%E5%8D%8F%E4%BD%9C%E5%B7%A5%E5%85%B7_-_%E5%B0%91%E6%95%B0%E6%B4%BE.pdf">Notion 使用详解：来自未来的笔记协作工具 - 少数派.pdf</a></p><p><a href="https://music.163.com/#/song?id=1377984060">网易云音乐</a></p><p>你终会遇见如你一般可爱的人像是围墙上开满的蓝雪花</p><p><a href="Notion%20f97f003929344a779da380945810cfb3/1529298686704.mp4">1529298686704.mp4</a></p><p>蒲公英</p><h3 id="四-其他应用程序-Embeds"><a href="#四-其他应用程序-Embeds" class="headerlink" title="四 其他应用程序 Embeds"></a>四 其他应用程序 Embeds</h3><p>Notion允许添加的插件有500+个，输入 /embed 嵌入任何应用</p><p>/figma可以直接嵌入 Figma应用程序</p><p><a href="https://www.bilibili.com/">https://www.bilibili.com/</a></p><h3 id="五-更高级的类型"><a href="#五-更高级的类型" class="headerlink" title="五 更高级的类型"></a>五 更高级的类型</h3><p>添加数学公式 ，用 /math</p><p>$E = mc^2$</p><p>/template 允许创建和配置一个按钮，然后可以一次次赋值任何一个 blocks 块</p><p>/breadcrumb 允许在工作空间显示当前页面的位置</p><p>/toc (Table of Contents)创建页面目录，这样可以点击目录来直接跳转页面想起的部分，查看本页面开头</p><p>轻松拖放任何 block 来重新排列页面，可以删除、复制、转换 block 类型、改变文本颜色，移动到其他页面等</p><h3 id="六-写作和编辑"><a href="#六-写作和编辑" class="headerlink" title="六 写作和编辑"></a>六 写作和编辑</h3><p>选中 block 会跳出一个菜单，这里可以更改 block 类型，添加 Comment 注释，注意添加注释之后要点一下右边的上传按钮，如果注释是给特定成员，可以@。菜单还可以对文本更改颜色与背景色、转为超链 接、加粗、开根号、设为<em>斜体、</em>添加下划线、<del>删除线</del>、<code>代码符号选项</code>、**@**选项关联到日期、人员或别的页面等。</p><p>点击页面右上角的三个点 <strong>···</strong> ，可以设置整个页面的文本风格、导出页面等。</p><p>通过拖放来实现移动和分栏（把拖动的 block 放到目标 block 的前面或后面），鼠标放在 block 前面的 “六筒” 上来拖动。</p><p>快速查找功能 Quick Find 可以在 Notion 中笔记太多时使用，快速找到并跳转到页面或内容，还可以自己设定搜索条件(输入搜索内容，会出现 add filter，点击之显示侧搜索栏，这里可以设置仅匹配页面标题，某段时间的内容等筛选条件)，快捷键 Ctrl + P。</p><p>模板功能：给页面添加模板，模板顶部有说明和使用方式。</p><p><strong>提醒功能</strong>：在 Notion 中记录 To-do List 或个人计划、任务时刻表等，可以在页面中输入 @ 然后设置提醒，可选择指定的人员，提醒一下，也可以选择时间 September 10, 2021 6:00 PM-6:25 PM @baiChen </p><p>设置页面小图标和封面，Notion中设置的图标都可以鼠标选中并更换。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;首先展示一下本文在 Notion 中的效果：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/Y-JINHAO/resources/img/Notion.png&quot;&gt;&lt;/p&gt;
+&lt;h3 id=&quot;一-基本内容类型及定义&quot;&gt;&lt;a href=</summary>
+      
+    
+    
+    
+    
+    <category term="Notion" scheme="https://y-jinhao.github.io/tags/Notion/"/>
+    
+  </entry>
   
   <entry>
     <title>LeetCode 刷题预备知识</title>
